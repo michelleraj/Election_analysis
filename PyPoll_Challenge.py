@@ -114,7 +114,7 @@ with open(file_to_save, "w") as txt_file:
         # terminal.
 
         if (cvotes > cwinning_count) and (cvote_percentage > cwinning_percentage):
-            cwinning_count = votes
+            cwinning_count = cvotes
             winning_county = county_name
             cwinning_percentage = cvote_percentage
     Largest_county=(f"-------------------------\n"
